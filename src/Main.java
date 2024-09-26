@@ -31,13 +31,14 @@ public class Main {
         byte Ekaterina = 30;
         short classwork = 480;
         System.out.println("На каждого ученика рассчитано " + classwork / (Ludmila + Anna + Ekaterina) + " листов бумаги");
-        short time1 = 20 * 8;
+        byte time = 16 / 2;
+        int time1 = 20 * time;
         System.out.println("За 20 минут машина произвела " + time1 + " штук бутылок");
-        short time2 = 60 * 8 * 24;
+        int time2 = 60 * time * 24;
         System.out.println("За сутки машина произвела " + time2 + " штук бутылок");
-        int time3 = 60 * 8 * 24 * 3;
+        int time3 = 60 * time * 24 * 3;
         System.out.println("За 3 дня машина произвела " + time3 + " штук бутылок");
-        int time4 = 60 * 8 * 24 * 30;
+        int time4 = 60 * time * 24 * 30;
         System.out.println("За месяц машина произвела " + time4 + " штук бутылок");
         byte total = 120;
         System.out.println("В школе, где "+ total / 6 +" классов, нужно "+20 * 2 +" банок белой краски и "+ 20 * 4 +" банок коричневой краски");
@@ -59,9 +60,9 @@ public class Main {
         float sumDenis = Denis + totalDenis;
         System.out.println("Денис теперь получает " + sumDenis + " рублей. Годовой доход вырос на "+ totalDenis +" рублей");
         int Kristina = 76230;
-        float totaKristina = Kristina * 0.1f;
-        float sumKristina = Kristina + totaKristina;
-        System.out.println("Кристина теперь получает " + sumKristina + " рублей. Годовой доход вырос на "+ totaKristina +" рублей");
+        float totalKristina = Kristina * 0.1f;
+        float sumKristina = Kristina + totalKristina;
+        System.out.println("Кристина теперь получает " + sumKristina + " рублей. Годовой доход вырос на "+ totalKristina +" рублей");
 
     }
 }
