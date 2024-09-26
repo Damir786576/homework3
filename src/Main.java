@@ -1,5 +1,67 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        byte a = 127;
+        System.out.println("Значение переменной a с типом byte равно " + a);
+        short b = 32767;
+        System.out.println("Значение переменной b с типом short равно " + b);
+        int c = 2147483647;
+        System.out.println("Значение переменной c с типом int равно " + c);
+        long d = 9226875908977L;
+        System.out.println("Значение переменной d с типом long равно " + d);
+        float e = 5.5f;
+        System.out.println("Значение переменной e с типом float равно " + e);
+        double f = 5.54564;
+        System.out.println("Значение переменной f с типом double равно " + f);
+        float a1 =  27.12f;
+        System.out.println(a1);
+        long b1 = 987678965549L;
+        System.out.println(b1);
+        float c1 = 2.786f;
+        System.out.println(c1);
+        short d1 = 569;
+        System.out.println(d1);
+        short e1 = -159;
+        System.out.println(e1);
+        int f1 = 27897;
+        System.out.println(f1);
+        byte g1 = 67;
+        System.out.println(g1);
+        byte Ludmila = 23;
+        byte Anna = 27;
+        byte Ekaterina = 30;
+        short classwork = 480;
+        System.out.println("На каждого ученика рассчитано " + classwork / (Ludmila + Anna + Ekaterina) + " листов бумаги");
+        short time1 = 20 * 8;
+        System.out.println("За 20 минут машина произвела " + time1 + " штук бутылок");
+        short time2 = 60 * 8 * 24;
+        System.out.println("За сутки машина произвела " + time2 + " штук бутылок");
+        int time3 = 60 * 8 * 24 * 3;
+        System.out.println("За 3 дня машина произвела " + time3 + " штук бутылок");
+        int time4 = 60 * 8 * 24 * 30;
+        System.out.println("За месяц машина произвела " + time4 + " штук бутылок");
+        byte total = 120;
+        System.out.println("В школе, где "+ total / 6 +" классов, нужно "+20 * 2 +" банок белой краски и "+ 20 * 4 +" банок коричневой краски");
+        short banan = 5 * 80;
+        short milk = 2 * 105;
+        short icecream = 2 * 100;
+        short egg = 4 * 70;
+        int totalEat = banan + milk + icecream + egg;
+        System.out.println(totalEat / 1000 + "кг " + totalEat % 1000 + "грамм");
+        short weight = 7 * 1000;
+        System.out.println(weight / 250 + " дней");
+        System.out.println(weight / 500 + " дней");
+        int Masha = 67760;
+        float totalMasha = Masha * 0.1f;
+        float sumMasha = Masha + totalMasha;
+        System.out.println("Маша теперь получает " + sumMasha + " рублей. Годовой доход вырос на "+ totalMasha +" рублей");
+        int Denis = 83690;
+        float totalDenis = Denis * 0.1f;
+        float sumDenis = Denis + totalDenis;
+        System.out.println("Денис теперь получает " + sumDenis + " рублей. Годовой доход вырос на "+ totalDenis +" рублей");
+        int Kristina = 76230;
+        float totaKristina = Kristina * 0.1f;
+        float sumKristina = Kristina + totaKristina;
+        System.out.println("Кристина теперь получает " + sumKristina + " рублей. Годовой доход вырос на "+ totaKristina +" рублей");
+
     }
 }
